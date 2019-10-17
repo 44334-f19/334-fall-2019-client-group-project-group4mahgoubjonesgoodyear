@@ -6,15 +6,18 @@
 <meta name="Yorkie, Party">
 <link rel="stylesheet" href="style.scss">
 <style>
-    img {width: 250px;
-    height: 250px;}
-    span {display: inline-block;
-    width: auto;
-    height: 150px;}
-    img2 {float: right;}
-    #gallery {width: 55px;
-    height: 55px;
-    display: block;}
+    img {width: auto;
+        height: 100px;}
+    .img2 {width: auto;}
+    .column {flex: 33.33%;
+    padding: auto;}
+    .row {
+        display: flex;
+        padding-top: 35px;
+        height: 150px;
+    }
+    .column2 {flex: 50%;
+    padding: auto;}
 </style>
 </head>
 <h1><a href="index.html">Party Yorkies of the Grove</a></h1>
@@ -26,9 +29,26 @@
     <a href="contact.html">Contact Us</a>
     </nav>
 <body>
-    <img id="gallery" src=images/image2.jpg alt="Party Yorkie Gallery">
-    <img id="img1" src=images/image1.jpg alt="Party Yorkie Mother"><span><p>About the Company zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz</p><button>Learn More About Us</button></span>
-    <P>To Get Started</P><span><button>Contact Us to Get Started</button><img id="img2" src=images/image1.jpg alt="Party Yorkie Mother"></span>
+    <div class="row">
+        <div class="column">
+        <img src=images/image2.jpg alt="Party Yorkie Gallery Image 1"></div>
+        <div class="column">
+        <img src=images/image2.jpg alt="Party Yorkie Gallery Image 2">
+        </div>
+        <div class="column">
+        <img src=images/image2.jpg alt="Party Yorkie Gallery Image 3">
+        </div>
+    </div>
+    <br><br>
+    <div class="row">
+        <div class="column2">
+            <img class="img2" id="img1" src=images/image1.jpg alt="Party Yorkie Mother"></div>
+            <div class="column2"><p>About the Company</p><button>Learn More About Us</button></div>
+    </div>
+    <br><br>
+    <div class="row">
+    <div class="column2"><P>To Get Started</P><button>Contact Us to Get Started</button></div>
+        <div class="column2"><img class="img2" id="img2" src=images/image1.jpg alt="Party Yorkie Mother"></div></div>
 </body>
 <footer></footer>
 </html>
