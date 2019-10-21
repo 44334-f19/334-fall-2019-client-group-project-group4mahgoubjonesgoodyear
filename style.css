@@ -1,4 +1,53 @@
-h1 {color: blue;
-font-size: 65px;
-text-align: center;}
-nav {text-align: center;}
+.title 
+{
+	color: #00688B;
+	font-size: 50px;
+	text-align: center;
+}
+
+a, a:link, a:hover, a:active, a:visited
+{
+    color: #00688B;
+	text-decoration: none;
+}
+
+.nav 
+{
+	float: center;
+	text-align: center;
+	color: #00688B;
+	padding: 15px 15px;
+	background-color: white;
+}
+
+.nav a 
+{
+	color: #00688B;
+	text-align: center;
+	padding: 15px 15px;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+.nav a:hover
+{
+	color: white;
+	background-color:#00688B;
+}
+
+.center
+{
+    
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 50%;
+}
+
+footer
+{
+ background color: #00688B;
+ color: white;
+ height: 50px;
+    
+}
