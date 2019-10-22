@@ -16,6 +16,12 @@ body
     background-color:#EEE1DB;
 }
 
+.content
+{
+margin:0 10% 0 10%; 
+    
+}
+
 nav 
 {
 	float: center;
@@ -23,7 +29,6 @@ nav
 	color: #00688B;
 	padding: 15px 15px;
 	background-color: white;
-    margin:0 10% 0 10%;
 }
 
 nav a 
@@ -55,6 +60,7 @@ footer
  background color: #00688B;
  color: white;
  height: 50px;
+ margin: 0;
     
 }
 
