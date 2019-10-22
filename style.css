@@ -11,6 +11,11 @@ a, a:link, a:hover, a:active, a:visited
 	text-decoration: none;
 }
 
+body
+{
+    background-color:#EEE1DB;
+}
+
 nav 
 {
 	float: center;
