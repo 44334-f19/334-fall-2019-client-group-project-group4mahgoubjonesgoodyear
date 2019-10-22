@@ -11,7 +11,7 @@ a, a:link, a:hover, a:active, a:visited
 	text-decoration: none;
 }
 
-.nav 
+nav 
 {
 	float: center;
 	text-align: center;
@@ -20,7 +20,7 @@ a, a:link, a:hover, a:active, a:visited
 	background-color: white;
 }
 
-.nav a 
+nav a 
 {
 	color: #00688B;
 	text-align: center;
@@ -29,7 +29,7 @@ a, a:link, a:hover, a:active, a:visited
 	font-size: 18px;
 }
 
-.nav a:hover
+nav a:hover
 {
 	color: white;
 	background-color:#00688B;
