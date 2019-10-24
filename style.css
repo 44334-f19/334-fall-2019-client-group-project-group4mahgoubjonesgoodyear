@@ -53,6 +53,12 @@ nav a:hover
     margin-right: auto;
     width: 50%;
 }
+/*Gallery styles*/
+.gallery li
+{list-style-type:  none;
+display: inline;
+padding: 10px;
+}
 
 footer
 {
