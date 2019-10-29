@@ -65,5 +65,18 @@ footer
     background-color: #00688B;
     color: white;
     height: 50px;
-    margin: 0;  
+    margin: 01;  
+}
+h2
+{
+    font-family: 'Playfair Display', sans-serif;
+}
+h1 
+{
+    font-family: 'Playfair Display', serif;
+}
+p
+{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1em;
 }
