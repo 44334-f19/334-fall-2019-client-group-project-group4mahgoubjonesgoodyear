@@ -22,8 +22,8 @@
         border: 2px solid #e6005c;
         background-color: #e6005c;
         text-decoration-color: 00688B;
-    
 }
+    
 </style>
 </head>
     <body>
@@ -51,27 +51,7 @@
                 <li><img class="demo1 w3-opacity w3-hover-opacity-off" src="images/image3.jpg" style="width:20%;cursor:pointer" onclick="currentDiv1(3)"></li>
             </ul>
             </div>
-        <script>
-        function currentDiv1(n) {
-                  showDivs(slideIndex = n);
-                }
-
-                function showDivs(n) {
-                  var i;
-                  var x = document.getElementsByClassName("mySlides1");
-                  var dots = document.getElementsByClassName("demo1");
-                  if (n > x.length) {slideIndex = 1}
-                  if (n < 1) {slideIndex = x.length}
-                  for (i = 0; i < x.length; i++) {
-                    x[i].style.display = "none";
-                  }
-                  for (i = 0; i < dots.length; i++) {
-                    dots[i].className = dots[i].className.replace(" w3-hover-opacity-off", "");
-                  }
-                  x[slideIndex-1].style.display = "block";
-                  dots[slideIndex-1].className += " w3-hover-opacity-off";
-                }
-        </script>
+       
     </div>
     <div class="grid-item">
         <h3>Puppy Name</h3>
@@ -109,27 +89,7 @@
                 <li><img class="demo2 w3-opacity w3-hover-opacity-off" src="images/image3.jpg" style="width:20%;cursor:pointer" onclick="currentDiv2(3)"></li>
             </ul>
             </div>
-        <script>
-        function currentDiv2(n) {
-                  showDivs(slideIndex = n);
-                }
-
-                function showDivs(n) {
-                  var i;
-                  var x = document.getElementsByClassName("mySlides2");
-                  var dots = document.getElementsByClassName("demo2");
-                  if (n > x.length) {slideIndex = 1}
-                  if (n < 1) {slideIndex = x.length}
-                  for (i = 0; i < x.length; i++) {
-                    x[i].style.display = "none";
-                  }
-                  for (i = 0; i < dots.length; i++) {
-                    dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
-                  }
-                  x[slideIndex-1].style.display = "block";
-                  dots[slideIndex-1].className += " w3-opacity-off";
-                }
-        </script>
+       
         </div>  
     <div class="grid-item">
                <div class="w3-content" style="max-width:1200px">
@@ -145,27 +105,7 @@
                 <li><img class="demo3 w3-opacity w3-hover-opacity-off" src="images/image3.jpg" style="width:20%;cursor:pointer" onclick="currentDiv3(3)"></li>
             </ul>
             </div>
-        <script>
-        function currentDiv3(n) {
-                  showDivs(slideIndex = n);
-                }
-
-                function showDivs(n) {
-                  var i;
-                  var x = document.getElementsByClassName("mySlides3");
-                  var dots = document.getElementsByClassName("demo3");
-                  if (n > x.length) {slideIndex = 1}
-                  if (n < 1) {slideIndex = x.length}
-                  for (i = 0; i < x.length; i++) {
-                    x[i].style.display = "none";
-                  }
-                  for (i = 0; i < dots.length; i++) {
-                    dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
-                  }
-                  x[slideIndex-1].style.display = "block";
-                  dots[slideIndex-1].className += " w3-opacity-off";
-                }
-        </script>
+       
         </div>
     <div class="grid-item">
         <h3>Puppy Name</h3>
@@ -182,5 +122,66 @@
     <footer style="background-color:#00688B; color: white; width: 100%">
         <p>Contact Us today</p>
     </footer>
+    <script>
+        function currentDiv1(n) {
+                  showDivs1(slideIndex = n);
+                }
+
+                function showDivs1(n) {
+                  var i;
+                  var x = document.getElementsByClassName("mySlides1");
+                  var dots = document.getElementsByClassName("demo1");
+                  if (n > x.length) {slideIndex = 1}
+                  if (n < 1) {slideIndex = x.length}
+                  for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                  }
+                  for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" w3-hover-opacity-off", "");
+                  }
+                  x[slideIndex-1].style.display = "block";
+                  dots[slideIndex-1].className += " w3-hover-opacity-off";
+                }
+    
+        function currentDiv2(n) {
+                  showDivs2(slideIndex = n);
+                }
+
+                function showDivs2(n) {
+                  var i;
+                  var x = document.getElementsByClassName("mySlides2");
+                  var dots = document.getElementsByClassName("demo2");
+                  if (n > x.length) {slideIndex = 1}
+                  if (n < 1) {slideIndex = x.length}
+                  for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                  }
+                  for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
+                  }
+                  x[slideIndex-1].style.display = "block";
+                  dots[slideIndex-1].className += " w3-opacity-off";
+                }
+
+        function currentDiv3(n) {
+                  showDivs3(slideIndex = n);
+                }
+
+                function showDivs3(n) {
+                  var i;
+                  var x = document.getElementsByClassName("mySlides3");
+                  var dots = document.getElementsByClassName("demo3");
+                  if (n > x.length) {slideIndex = 1}
+                  if (n < 1) {slideIndex = x.length}
+                  for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                  }
+                  for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
+                  }
+                  x[slideIndex-1].style.display = "block";
+                  dots[slideIndex-1].className += " w3-opacity-off";
+                }
+        </script>
 </body>
 </html>
