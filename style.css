@@ -53,7 +53,9 @@ nav a:hover
     margin-right: auto;
     width: 50%;
 }
+
 /*Gallery styles*/
+
 .gallery li
 {list-style-type:  none;
 display: inline;
@@ -67,14 +69,17 @@ footer
     height: 50px;
     margin: 01;  
 }
+
 h2
 {
     font-family: 'Playfair Display', sans-serif;
 }
+
 h1 
 {
     font-family: 'Playfair Display', serif;
 }
+
 p
 {
     font-family: 'Source Sans Pro', sans-serif;
