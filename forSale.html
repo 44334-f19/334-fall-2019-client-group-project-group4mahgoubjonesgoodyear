@@ -16,6 +16,13 @@
     {
         font-size: 2.25em;
         }
+    button {float: right;
+        border-radius: 25px;
+        border: 2px solid #e6005c;
+        background-color: #e6005c;
+        text-decoration-color: 00688B;
+    
+}
 </style>
 </head>
     <body>
@@ -31,37 +38,37 @@
     <div class="grid-container">
         <div class="grid-item">
             <div class="w3-content" style="max-width:1200px">
-                  <img class="mySlides" src="images/image1.jpg" style="width:80%;display:none">
-                  <img class="mySlides" src="images/image2.jpg" style="width:80%">
-                  <img class="mySlides" src="images/image3.jpg" style="width:80%;display:none">
+                  <img class="mySlides1" src="images/image1.jpg" style="width:80%;display:none">
+                  <img class="mySlides1" src="images/image2.jpg" style="width:80%">
+                  <img class="mySlides1" src="images/image3.jpg" style="width:80%;display:none">
 
             <ul class="gallery">
-                <li><img class="demo w3-opacity w3-hover-opacity-off" src="images/image1.jpg" style="width:20%;cursor:pointer" onclick="currentDiv(1)"></li>
+                <li><img class="demo1 w3-opacity w3-hover-opacity-off" src="images/image1.jpg" style="width:20%;cursor:pointer" onclick="currentDiv1(1)"></li>
             
-                <li><img class="demo w3-opacity w3-hover-opacity-off" src="images/image2.jpg" style="width:20%;cursor:pointer" onclick="currentDiv(2)"></li>
+                <li><img class="demo1 w3-opacity w3-hover-opacity-off" src="images/image2.jpg" style="width:20%;cursor:pointer" onclick="currentDiv1(2)"></li>
             
-                <li><img class="demo w3-opacity w3-hover-opacity-off" src="images/image3.jpg" style="width:20%;cursor:pointer" onclick="currentDiv(3)"></li>
+                <li><img class="demo1 w3-opacity w3-hover-opacity-off" src="images/image3.jpg" style="width:20%;cursor:pointer" onclick="currentDiv1(3)"></li>
             </ul>
             </div>
         <script>
-        function currentDiv(n) {
+        function currentDiv1(n) {
                   showDivs(slideIndex = n);
                 }
 
                 function showDivs(n) {
                   var i;
-                  var x = document.getElementsByClassName("mySlides");
-                  var dots = document.getElementsByClassName("demo");
+                  var x = document.getElementsByClassName("mySlides1");
+                  var dots = document.getElementsByClassName("demo1");
                   if (n > x.length) {slideIndex = 1}
                   if (n < 1) {slideIndex = x.length}
                   for (i = 0; i < x.length; i++) {
                     x[i].style.display = "none";
                   }
                   for (i = 0; i < dots.length; i++) {
-                    dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
+                    dots[i].className = dots[i].className.replace(" w3-hover-opacity-off", "");
                   }
                   x[slideIndex-1].style.display = "block";
-                  dots[slideIndex-1].className += " w3-opacity-off";
+                  dots[slideIndex-1].className += " w3-hover-opacity-off";
                 }
         </script>
     </div>
@@ -89,28 +96,27 @@
         </div>
     <div class="grid-item">
                 <div class="w3-content" style="max-width:1200px">
-                  <img class="mySlides" src="images/image1.jpg" style="width:80%;display:none">
-                  <img class="mySlides" src="images/image2.jpg" style="width:80%">
-                  <img class="mySlides" src="images/image3.jpg" style="width:80%;display:none">
+                  <img class="mySlides2" src="images/image1.jpg" style="width:80%;display:none">
+                  <img class="mySlides2" src="images/image2.jpg" style="width:80%">
+                  <img class="mySlides2" src="images/image3.jpg" style="width:80%;display:none">
 
             <ul class="gallery">
-                <li><img class="demo w3-opacity w3-hover-opacity-off" src="images/image1.jpg" style="width:20%;cursor:pointer" onclick="currentDiv(1)" ></li>
+                <li><img class="demo2 w3-opacity w3-hover-opacity-off" src="images/image1.jpg" style="width:20%;cursor:pointer" onclick="currentDiv2(1)" ></li>
             
-                <li><img class="demo w3-opacity w3-hover-opacity-off" src="images/image2.jpg" style="width:20%;cursor:pointer" onclick="currentDiv(2)"></li>
+                <li><img class="demo2 w3-opacity w3-hover-opacity-off" src="images/image2.jpg" style="width:20%;cursor:pointer" onclick="currentDiv2(2)"></li>
             
-                <li><img class="demo w3-opacity w3-hover-opacity-off" src="images/image3.jpg" style="width:20%;cursor:pointer" onclick="currentDiv(3)"></li>
+                <li><img class="demo2 w3-opacity w3-hover-opacity-off" src="images/image3.jpg" style="width:20%;cursor:pointer" onclick="currentDiv2(3)"></li>
             </ul>
             </div>
-            </div>
         <script>
-        function currentDiv(n) {
+        function currentDiv2(n) {
                   showDivs(slideIndex = n);
                 }
 
                 function showDivs(n) {
                   var i;
-                  var x = document.getElementsByClassName("mySlides");
-                  var dots = document.getElementsByClassName("demo");
+                  var x = document.getElementsByClassName("mySlides2");
+                  var dots = document.getElementsByClassName("demo2");
                   if (n > x.length) {slideIndex = 1}
                   if (n < 1) {slideIndex = x.length}
                   for (i = 0; i < x.length; i++) {
@@ -126,28 +132,27 @@
         </div>  
     <div class="grid-item">
                <div class="w3-content" style="max-width:1200px">
-                  <img class="mySlides" src="images/image1.jpg" style="width:80%;display:none">
-                  <img class="mySlides" src="images/image2.jpg" style="width:80%">
-                  <img class="mySlides" src="images/image3.jpg" style="width:80%;display:none">
+                  <img class="mySlides3" src="images/image1.jpg" style="width:80%;display:none">
+                  <img class="mySlides3" src="images/image2.jpg" style="width:80%">
+                  <img class="mySlides3" src="images/image3.jpg" style="width:80%;display:none">
 
             <ul class="gallery">
-                <li><img class="demo w3-opacity w3-hover-opacity-off" src="images/image1.jpg" style="width:20%;cursor:pointer" onclick="currentDiv(1)"></li>
+                <li><img class="demo3 w3-opacity w3-hover-opacity-off" src="images/image1.jpg" style="width:20%;cursor:pointer" onclick="currentDiv3(1)"></li>
             
-                <li><img class="demo w3-opacity w3-hover-opacity-off" src="images/image2.jpg" style="width:20%;cursor:pointer" onclick="currentDiv(2)"></li>
+                <li><img class="demo3 w3-opacity w3-hover-opacity-off" src="images/image2.jpg" style="width:20%;cursor:pointer" onclick="currentDiv3(2)"></li>
             
-                <li><img class="demo w3-opacity w3-hover-opacity-off" src="images/image3.jpg" style="width:20%;cursor:pointer" onclick="currentDiv(3)"></li>
+                <li><img class="demo3 w3-opacity w3-hover-opacity-off" src="images/image3.jpg" style="width:20%;cursor:pointer" onclick="currentDiv3(3)"></li>
             </ul>
             </div>
-            </div>
         <script>
-        function currentDiv(n) {
+        function currentDiv3(n) {
                   showDivs(slideIndex = n);
                 }
 
                 function showDivs(n) {
                   var i;
-                  var x = document.getElementsByClassName("mySlides");
-                  var dots = document.getElementsByClassName("demo");
+                  var x = document.getElementsByClassName("mySlides3");
+                  var dots = document.getElementsByClassName("demo3");
                   if (n > x.length) {slideIndex = 1}
                   if (n < 1) {slideIndex = x.length}
                   for (i = 0; i < x.length; i++) {
@@ -160,6 +165,7 @@
                   dots[slideIndex-1].className += " w3-opacity-off";
                 }
         </script>
+        </div>
     <div class="grid-item">
         <h3>Puppy Name</h3>
             <p>ldfjnek dkfe kdfjdk dikvkd fidfkvuji jkvjdiojfej ifiodfldjifkjidkfj </p>
@@ -169,8 +175,7 @@
                 <li>Date of Birth:</li>
                 <li>Date Avaliable:</li>
             </ul>
-            <button onclick="window.location.href='contact.html';" style="">Want to Take me Home? </button>
-        </div>
+            <button class="home" onclick="window.location.href='contact.html';" style="">Want to Take me Home? </button>
         </div>
  <footer style="background-color:#00688B; color: white; width: 100%">
 		<p>Contact Us today</p>
