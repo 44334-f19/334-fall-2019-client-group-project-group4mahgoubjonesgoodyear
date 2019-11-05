@@ -8,17 +8,24 @@
 <style>
         @import url('https://fonts.googleapis.com/css?family=Playfair+Display|Source+Sans+Pro&display=swap');
 
-     body { text-align: left;
-            background-color:#EEE1DB;
+     body { 
+            text-align: left;
 	        margin:0 10% 0 10%;
+            background-image:url(images/wood.jpg);
+            background-repeat: repeat;
     }
-    footer {background-color:#00688B;
+    footer {
             color: white;
             width: 100%;
     }
+    .wrapper { 
+            border: 5px solid #d5ac9a;
+        }
 </style>
 </head>
+<div class="wrapper">
 <body>
+
     <p class="title"><a href="index.html">Party Yorkies of the Grove</a></p>
     <nav>
             <a href="index.html">Home</a>
@@ -27,14 +34,16 @@
             <a href="info.html">Information</a>
             <a href="contact.html">Contact Us</a>
     </nav>
-    <div id="wrapper">
+    <div class="stuff">
     <h1> How To Secure Your Puppy</h1>
-    <Ul>
-        <li>1. Set up a phone interview with us</li>
-        <li>2. Make a deposit of $500</li>
-        <li>3. Refer to our delivery options</li>
-    </Ul>
+    <ol>
+        <li> Set up a phone interview with us</li>
+        <li> Make a deposit of $500</li>
+        <li> Refer to our delivery options</li>
+    </ol>
     <br>
+    </div>
+    <div class="stuff">
     <h2>FAQ</h2>
 <button class="accordion">Section 1</button>
 <div class="panel">
@@ -68,9 +77,10 @@ for (i = 0; i < acc.length; i++) {
   });
 }
 </script>
-</div>
+        </div>
 </body>
-  <footer style="background-color:#00688B; color: white; width: 100%">
+  <footer style="color: white; width: 100%">
 		<p>Contact Us today</p>
 	</footer>
+    </div>
 </html>
