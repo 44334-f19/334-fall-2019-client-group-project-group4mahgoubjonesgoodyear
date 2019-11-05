@@ -3,6 +3,7 @@
 	color: #00688B;
 	font-size: 50px;
 	text-align: center;
+    font-family: 'Playfair Display', serif;
 }
 
 a, a:link, a:hover, a:active, a:visited
@@ -25,24 +26,26 @@ nav
 {
 	float: center;
 	text-align: center;
-	color: #00688B;
+	color: #9ac5d5;
 	padding: 15px 15px;
-	background-color: white;
+	background-color: #dbe9ee;
+    border-radius: .5em;
 }
 
 nav a 
 {
-	color: #00688B;
+	color: #9ac5d5;
 	text-align: center;
 	padding: 15px 15px;
 	text-decoration: none;
 	font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 nav a:hover
 {
 	color: white;
-	background-color:#00688B;
+	background-color:#9ac5d5;
 }
 
 .center
@@ -84,4 +87,35 @@ p
 {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 1em;
+}
+
+.accordion
+{
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+.active, .accordion:hover 
+{
+    background-color: #dbe9ee;
+}
+
+.panel 
+{
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+.wrapper 
+{
+    width: 500px;
+    margin: 0 auto;
 }

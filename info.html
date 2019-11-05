@@ -20,13 +20,14 @@
 </head>
 <body>
     <p class="title"><a href="index.html">Party Yorkies of the Grove</a></p>
-        <nav>
+    <nav>
             <a href="index.html">Home</a>
             <a href="forSale.html">Our Puppies</a>
             <a href="aboutUs.html">About Us</a>
             <a href="info.html">Information</a>
             <a href="contact.html">Contact Us</a>
-        </nav>
+    </nav>
+    <div id="wrapper">
     <h1> How To Secure Your Puppy</h1>
     <Ul>
         <li>1. Set up a phone interview with us</li>
@@ -35,18 +36,39 @@
     </Ul>
     <br>
     <h2>FAQ</h2>
-    <details>
-        <summary>Question 1</summary>
-        <p> Answer 1</p>
-    </details>
-     <details>
-        <summary>Question 2</summary>
-        <p> Answer 2</p>
-    </details>
-     <details>
-        <summary>Question 3</summary>
-        <p> Answer 3</p>
-    </details>
+<button class="accordion">Section 1</button>
+<div class="panel">
+  <p>Lorem ipsum...</p>
+</div>
+
+<button class="accordion">Section 2</button>
+<div class="panel">
+  <p>Lorem ipsum...</p>
+</div>
+
+<button class="accordion">Section 3</button>
+<div class="panel">
+  <p>Lorem ipsum...</p>
+</div>
+    <script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+
+  
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+</div>
 </body>
   <footer style="background-color:#00688B; color: white; width: 100%">
 		<p>Contact Us today</p>
