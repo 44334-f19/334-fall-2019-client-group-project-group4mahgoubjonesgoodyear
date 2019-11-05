@@ -10,13 +10,13 @@
 
 a, a:link, a:hover, a:active, a:visited
 {
-    color: #00688B;
+    color: white;
 	text-decoration: none;
 }
 
 body
 {
-    background-color:#EEE1DB;
+    background-color:white;
 }
 
 .content
@@ -28,15 +28,14 @@ nav
 {
 	float: center;
 	text-align: center;
-	color: #9ac5d5;
-	padding: 15px 15px;
-	background-color: #dbe9ee;
-    border-radius: .5em;
+	color: white;
+	padding: 10px 10px;
+	background-color: #d5ac9a;
 }
 
 nav a 
 {
-	color: #9ac5d5;
+	color: white;
 	text-align: center;
 	padding: 15px 15px;
 	text-decoration: none;
@@ -47,7 +46,7 @@ nav a
 nav a:hover
 {
 	color: white;
-	background-color:#9ac5d5;
+	background-color:#d5ac9a;
 }
 
 .center
@@ -69,7 +68,7 @@ padding: 10px;
 
 footer
 {
-    background-color: #00688B;
+    text-align: center;
     color: white;
     height: 50px;
     margin: 01;  
