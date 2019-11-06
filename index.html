@@ -5,6 +5,7 @@
 <meta name="description" content="Homepage for Party Yorkies of the Grove">
 <meta name="Yorkie, Party">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
         @import url('https://fonts.googleapis.com/css?family=Playfair+Display|Source+Sans+Pro&display=swap');
 
@@ -26,18 +27,23 @@
         display: flex;
         padding-top: 35px;
         height: auto;
-        background-color: #dbe9ee;
+        background-color: #EEE1DB;
+        border-radius: 20px;
     }
     .column2 {flex: 50%;
     padding: auto;}
     
-    button {background-color: #e7dbee;}
+    button {
+        background-color: #d5ac9a;
+        color:white;
+    }
     
 </style>
 </head>
 <body>
+    <div class="wrapper">
     <div class= "content">
-        <p class="title"><a href="index.html">Party Yorkies of the Grove</a></p>
+        <img class="logo" src="images/logo.png">
         <nav>
             <a href="index.html">Home</a>
             <a href="forSale.html">Our Puppies</a>
@@ -90,8 +96,12 @@
             </div>
         </div>
     </div>
+    </div>
     <footer>
-        <p>Contact Us today</p>
+        <div class="social">
+            <li><a href="#" target="blank"><i class=" fa fa-facebook" src""></i></a></li>
+            <li><a href="#" target="blank"><i class=" fa fa-twitter"></i></a></li>
+        </div>
     </footer>
 </body>
 </html>
