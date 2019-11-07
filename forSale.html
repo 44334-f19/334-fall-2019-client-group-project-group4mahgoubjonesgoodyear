@@ -32,6 +32,7 @@
     {   text-justify: auto;}
     h3
     {   font-family: 'Playfair Display', sans-serif;
+        color: black;
     }
 </style>
 </head>
@@ -47,7 +48,7 @@
     <a href="contact.html">Contact Us</a>
     </nav>
     <div class="grid-container">
-        <div class="grid-item">
+        <div class="grid-item" style="text-align: center">
             <div class="w3-content" style="max-width:1200px">
                   <img class="mySlides1" src="images/image1.jpg" style="width:80%;display:none">
                   <img class="mySlides1" src="images/image2.jpg" style="width:80%">
@@ -63,18 +64,18 @@
             </div>
     </div>
     <div class="grid-item">
-        <h3>Jack</h3>
+        <h3><a name="Jack" style="color: black">Jack</a></h3>
             <p class="des">Jack is fun-loving yorkie. He loves treats and the outdoors. He loves nap times but enjoys laying down and playing with this chew toys.</p>
             <ul class="list">
                 <li>Price: $3,000</li><br>
-                <li>Registry: American Kennel Club (AKC)</li><br>
+                <li>Registry: American Kennel Club </li><br>
                 <li>Date of Birth: 09/17/2019</li><br>
                 <li>Date Avaliable: 12/17/2019</li>
             </ul>
             <button onclick="window.location.href='contact.html';">Want to Take me Home? </button>
         </div>
-    <div class="grid-item">
-        <h3>Molly</h3>
+    <div class="grid-item" style="padding: 50px">
+        <h3><a name="Molly" style="color: black">Molly</a></h3>
          <p class="des">Jack is fun-loving yorkie. He loves treats and the outdoors. He loves nap times but enjoys laying down and playing with this chew toys.</p>
             <ul class="list">
                 <li>Price: $3,000</li><br>
@@ -84,7 +85,7 @@
             </ul>
             <button onclick="window.location.href='contact.html';">Want to Take me Home? </button>
         </div>
-    <div class="grid-item">
+    <div class="grid-item" style="border-color: #EEE1DB; border-style: double">
                 <div class="w3-content" style="max-width:1200px">
                   <img class="mySlides2" src="images/image1.jpg" style="width:80%;display:none">
                   <img class="mySlides2" src="images/image2.jpg" style="width:80%">
@@ -101,11 +102,11 @@
         </div>  
     <div class="grid-item">
                <div class="w3-content" style="max-width:1200px">
-                  <img class="mySlides3" src="images/image1.jpg" style="width:80%;display:none">
-                  <img class="mySlides3" src="images/image2.jpg" style="width:80%">
-                  <img class="mySlides3" src="images/image3.jpg" style="width:80%;display:none">
+                  <img class="mySlides3" src="images/image1.jpg" style="width:80%;display:none; text-align: center">
+                  <img class="mySlides3" src="images/image2.jpg" style="width:80%; text-align: center">
+                  <img class="mySlides3" src="images/image3.jpg" style="width:80%;display:none; text-align: center">
 
-            <ul class="gallery">
+            <ul class="gallery" style="align-content: center">
                 <li><img class="demo3 w3-opacity w3-hover-opacity-off" src="images/image1.jpg" style="width:20%;cursor:pointer" onclick="currentDiv3(1)"></li>
             
                 <li><img class="demo3 w3-opacity w3-hover-opacity-off" src="images/image2.jpg" style="width:20%;cursor:pointer" onclick="currentDiv3(2)"></li>
@@ -115,7 +116,7 @@
             </div>
         </div>
     <div class="grid-item">
-        <h3>Lizzy</h3>
+        <h3><a name="Lizzy" style="color: black">Lizzy</a></h3>
           <p class="des">Jack is fun-loving yorkie. He loves treats and the outdoors. He loves nap times but enjoys laying down and playing with this chew toys.</p>
             <ul class="list">
                 <li>Price: $3,000</li><br>
@@ -126,9 +127,6 @@
             <button class="home" onclick="window.location.href='contact.html';" style="">Want to Take me Home? </button>
             </div>
         </div>
-    <footer style="background-color:#00688B; color: white; width: 100%">
-        <p>Contact Us today</p>
-    </footer>
     <script>
         function currentDiv1(n) {
                   showDivs1(slideIndex = n);
@@ -191,5 +189,8 @@
                 }
         </script>
         </div>
+          <footer style="background-color:#00688B; color: white; width: 100%">
+        <p>Contact Us today</p>
+    </footer>
 </body>
 </html>
