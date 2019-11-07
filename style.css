@@ -142,9 +142,11 @@ p
     height: 123px;
     width: 436;
 }
+
 footer 
 {
     color: black;
     width: 100%;
+    text-align: center;
      
 }
