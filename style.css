@@ -104,6 +104,7 @@ p
     border: none;
     outline: none;
     transition: 0.4s;
+    font-weight: 200;
 }
 
 .active, .accordion:hover 
