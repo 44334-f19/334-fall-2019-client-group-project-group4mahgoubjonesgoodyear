@@ -64,9 +64,10 @@ nav a:hover
 /*Gallery styles*/
 
 .gallery li
-{list-style-type:  none;
-display: inline;
-padding: 10px;
+{
+    list-style-type:  none;
+    display: inline;
+    padding: 10px;
 }
 
 footer
@@ -119,6 +120,7 @@ p
     display: none;
     overflow: hidden;
 }
+
 .wrapper 
 {
     width: 1000px;
@@ -130,6 +132,7 @@ p
     border-top: none;
     
 }
+
 .stuff
 {
     margin: 0 auto;
@@ -143,4 +146,11 @@ p
     height: 123px;
     width: 436;
 }
-    
+
+footer 
+{
+    color: black;
+    width: 100%;
+    text-align: center;
+     
+}
