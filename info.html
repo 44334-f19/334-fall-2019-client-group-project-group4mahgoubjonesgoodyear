@@ -5,8 +5,20 @@
 <meta name="description" content="Information page for Party Yorkies of the Grove">
 <meta name="Yorkie, Party, Information">
     <link rel="stylesheet" href="style.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 <style>
         @import url('https://fonts.googleapis.com/css?family=Playfair+Display|Source+Sans+Pro&display=swap');
+    
+    #family {
+      width: 100%;
+      background-image: url(images/image3.jpg);
+      height: 250px;
+      background-color: purple;
+      background-position: center;
+    }
+    p {
+        padding: 0;
+    }
 </style>
 </head>
 <div class="wrapper">
@@ -14,6 +26,23 @@
 <body>
 
     <img class="logo" src="images/logo.png">
+     <div class="media">
+            <ul>
+            <a href="http://facebok.com" target="_blank">
+                <li class="facebook"><i class="fa fa-facebook" aria-hidden="true" ></i></li>
+            </a>
+            <a href="http://instagram.com" target="_blank">
+                <li class="instagram"><i class="fa fa-instagram" aria-hidden="true"></i></li>
+            </a>
+            <a h ref="tel:123-456-7890">
+             <li class="phone"><i class="fa fa-phone" aria-hidden="true"></i></li>
+            </a>
+            <a href="mailto:skistimas@example.com?Subject=Puppy%20inquiry" target="_top">
+             <li class="envelope"><i class="fa fa-envelope" aria-hidden="true"></i></li>
+             </a>
+                
+            </ul>
+        </div>
     <nav>
             <a href="index.html">Home</a>
             <a href="forSale.html">Our Puppies</a>
@@ -21,21 +50,13 @@
             <a href="info.html">Information</a>
             <a href="contact.html">Contact Us</a>
     </nav>
-    <div class="stuff">
-    <h1> How To Secure Your Puppy</h1>
-    <ol>
-        <li> Set up a phone interview with us</li>
-        <li> Make a deposit of $500</li>
-        <li> Refer to our delivery options</li>
-    </ol>
-    <br>
+    <div id="family">
     </div>
-    <div class="stuff">
     <h2>FAQ</h2>
 
 <button class="accordion">I'm Ready To Take Home My New Family Member, Now What?</button>
 <div class="panel">
-  <p>Lorem ipsum...</p>
+  <p>We're happy you found the perfect furry friend for your family. First we need you to <a href="contact.html">arrange a phone interview.</a> We use a phone interview to ensure our puppies go to a nice home. During the interview we will arrange any delievery/pickup details. After that,you will make a $500 desposit to reserve your puppy. </p>
 </div>
         
 <button class="accordion">What Is A Party Yorkie?</button>
@@ -50,12 +71,12 @@
 
 <button class="accordion">How Much Of A Desposit Is Required To Reserve My Puppy?</button>
 <div class="panel">
-  <p>Lorem ipsum...</p>
+  <p>The desposit to reserve your puppy is $500</p>
 </div>
 
 <button class="accordion">How Will I Recieve My Puppy?</button>
 <div class="panel">
-  <p>Lorem ipsum...</p>
+  <p>We do offer devlivery options just be sure to mention that during the interview.</p>
 </div>
         
 <button class="accordion">How Can I Reserve My Puppy?</button>
@@ -81,12 +102,27 @@ for (i = 0; i < acc.length; i++) {
   });
 }
 </script>
-        </div>
     
 </body>
     </div>
   </div>
-  <footer style=" width: 100%">
-		<p>Contact Us today</p>
+<footer>
+        <div class="footer">
+            <p>Contact Us today! | Copyright 2019   | (123) 456-7890 </p>
+         <ul>
+            <a href="http://facebok.com" target="_blank">
+                <li class="facebook"><i class="fa fa-facebook" aria-hidden="true" ></i></li>
+            </a>
+            <a href="http://instagram.com" target="_blank">
+                <li class="instagram"><i class="fa fa-instagram" aria-hidden="true"></i></li>
+            </a>
+            <a>
+             <li class="phone"><i class="fa fa-phone" aria-hidden="true"></i></li>
+            </a>
+            <a>
+             <li class="envelope"><i class="fa fa-envelope" aria-hidden="true"></i></li>
+             </a>
+            </ul>
+        </div>	
 	</footer>
 </html>

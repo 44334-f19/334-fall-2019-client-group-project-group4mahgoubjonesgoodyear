@@ -6,6 +6,7 @@
 <meta name="Yorkie, Party">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 <style>
         @import url('https://fonts.googleapis.com/css?family=Playfair+Display|Source+Sans+Pro&display=swap');
 
@@ -34,12 +35,24 @@
         border-radius: 20px;
     }
     
-    .img2 {
-        padding-right: 35px;
+    .filler {
+        border-radius: 5%;
+        
     }
     
     .img3 {
-        padding-left: 35px;
+        border-radius: 5%;
+    }
+    .jack {
+        border-radius: 15%;
+    }
+    
+    .molly {
+        border-radius: 15%;
+    }
+    
+    .lizzy {
+        border-radius: 15%;
     }
     
     .column2 {
@@ -47,14 +60,16 @@
         padding: auto;
     }
     
+    
     button {
         background-color: #d5ac9a;
         color:white;
     }
 
     button {
-        background-color: #e7dbee;
+        background-color: #d5ac9a;
         padding-bottom: 5px;
+        font-family: 'playfair display', sans-serif;
     }
     
 </style>
@@ -63,6 +78,23 @@
     <div class="wrapper">
     <div class= "content">
         <img class="logo" src="images/logo.png">
+        <div class="media">
+            <ul>
+            <a href="http://facebok.com" target="_blank">
+                <li class="facebook"><i class="fa fa-facebook" aria-hidden="true" ></i></li>
+            </a>
+            <a href="http://instagram.com" target="_blank">
+                <li class="instagram"><i class="fa fa-instagram" aria-hidden="true"></i></li>
+            </a>
+            <a>
+             <li class="phone"><i class="fa fa-phone" aria-hidden="true"></i></li>
+            </a>
+            <a>
+             <li class="envelope"><i class="fa fa-envelope" aria-hidden="true"></i></li>
+             </a>
+                
+            </ul>
+        </div>
         <nav>
             <a href="index.html">Home</a>
             <a href="forSale.html">Our Puppies</a>
@@ -73,21 +105,21 @@
         <div class="row">
             <div class="column">
                 <a href=forSale.html#Jack>
-                    <img src=images/Client_Dog031119_SarahHorseman0089%20copy.jpg alt="Party Yorkie Gallery Image 1">
+                    <img class="jack" src=images/Client_Dog031119_SarahHorseman0089%20copy.jpg alt="Party Yorkie Gallery Image 1">
                 </a>
                 <p>Jack</p>
                 <p>Available 12/17/2019</p>
             </div>
             <div class="column">
                 <a href=forSale.html#Molly>
-                <img src=images/Client_Dog031119_SarahHorseman0080%20copy.jpg alt="Party Yorkie Gallery Image 2">
+                <img class="molly" src=images/Client_Dog031119_SarahHorseman0080%20copy.jpg alt="Party Yorkie Gallery Image 2">
                 </a>
                 <p>Molly</p>
                 <p>Available 12/17/2019</p>
             </div>
             <div class="column">
                 <a href=forSale.html#Lizzy>
-                <img src=images/Client_Dog031119_SarahHorseman0029%20copy.jpg alt="Party Yorkie Gallery Image 3">
+                <img class="lizzy" src=images/Client_Dog031119_SarahHorseman0029%20copy.jpg alt="Party Yorkie Gallery Image 3">
                 </a>
                 <p>Lizzy</p>
                 <p>Available 12/17/2019</p>
@@ -96,7 +128,7 @@
 <br><br>
         <div class="row2">
             <div class="column2">
-                <img class="img2" id="img1" src=images/famimage.jpg alt="Party Yorkie Family"></div>
+                <img class="filler" id="filler" src=images/filler.png alt="Party Yorkie Family"></div>
             <div class="column2">
                 <h2>About the Company</h2>
                 <p>We are an animal loving family run company. Our animals are first and foremost family pets, but quality is of upmost importance to us.  We believe in quality breeding and are dedicated to making sure our pups meet exceptional AKC standards. The AKC website has information on our breed of dog, including care information.</p>
@@ -118,7 +150,23 @@
         <br><br>
     </div>
             <footer>
-            <p>Contact Us today</p>
-        </footer>
+        <div class="footer">
+            <p>Contact Us today! | Copyright 2019   | (123) 456-7890 </p>
+         <ul>
+            <a href="http://facebok.com" target="_blank">
+                <li class="facebook"><i class="fa fa-facebook" aria-hidden="true" ></i></li>
+            </a>
+            <a href="http://instagram.com" target="_blank">
+                <li class="instagram"><i class="fa fa-instagram" aria-hidden="true"></i></li>
+            </a>
+            <a>
+             <li class="phone"><i class="fa fa-phone" aria-hidden="true"></i></li>
+            </a>
+            <a>
+             <li class="envelope"><i class="fa fa-envelope" aria-hidden="true"></i></li>
+             </a>
+            </ul>
+        </div>	
+	</footer>
 </body>
 </html>

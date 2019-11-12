@@ -8,7 +8,7 @@
     margin: 0;
 }
 
-a, a:link, a:hover, a:active, a:visited
+nav a, a:link, a:hover, a:active, a:visited
 {
     color: white;
 	text-decoration: none;
@@ -21,7 +21,9 @@ body
     margin:0 10% 0 10%;
 
 }
-
+.panel, a:link, a:visited, a:hover; {
+        color:#d5ac9a;
+    }
 .content
 {
     margin:0 10% 0 10%;    
@@ -34,6 +36,7 @@ nav
 	color: white;
 	padding: 10px 10px;
 	background-color: #d5ac9a;
+    margin-bottom: 15px;
 }
 
 nav a 
@@ -113,6 +116,43 @@ p
     background-color: #dbe9ee;
 }
 
+/*footer stuff*/
+.footer ul li {
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  float: right;
+  list-style:none;
+  padding-right:10px;} 
+
+.footer ul li .fa {
+  color: white;
+}
+
+
+.footer ul li:hover .fa-facebook {
+  color: #C5E6E0;
+  text-shadow: 0 0 15px #d5ac9a;
+}
+
+.footer ul li:hover .fa-instagram {
+  color: #C5E6E0;
+}
+
+.footer ul li:hover .fa-phone {
+  color: #C5E6E0;
+
+}
+
+.footer ul li:hover .fa-envelope {
+  color: #C5E6E0;
+}
+.footer p {
+    float:left;
+    margin: 0px;
+    color:#d5ac9a;
+}
+
 .panel 
 {
     padding: 0 18px;
@@ -142,10 +182,12 @@ p
 .logo
 {
     margin-left: 25%;
-    padding:20px;
-    height: 123px;
-    width: 436;
+    padding:10px;
+    height: 92.25px;
+    width: 330;
+    padding-bottom:5px;
 }
+
 
 footer 
 {
@@ -153,4 +195,40 @@ footer
     width: 100%;
     text-align: center;
      
+}
+
+/**social icons **/
+
+.media ul li {
+  width: 25px;
+  height: 25px;
+  margin: 10px;
+  margin-bottom: auto;
+  text-align: center;
+  float: right;
+  list-style:none;}
+
+
+.media ul li .fa {
+  color: white;
+  margin-bottom: 10px;
+}
+
+
+.media ul li:hover .fa-facebook {
+  color: #C5E6E0;
+  text-shadow: 0 0 15px #d5ac9a;
+}
+
+.media ul li:hover .fa-instagram {
+  color: #C5E6E0;
+}
+
+.media ul li:hover .fa-phone {
+  color: #C5E6E0;
+
+}
+
+.media ul li:hover .fa-envelope {
+  color: #C5E6E0;
 }
