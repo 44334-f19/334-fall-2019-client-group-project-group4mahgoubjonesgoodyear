@@ -1,11 +1,4 @@
-.title 
-{
-	color: #00688B;
-	font-size: 50px;
-	text-align: center;
-    font-family: 'Playfair Display', serif;
-    padding: 10px;
-    margin: 0;
+
 }
 
 nav a, a:link, a:hover, a:active, a:visited
@@ -163,9 +156,7 @@ p
 
 .wrapper 
 {
-    width: 1000px;
-    margin: 0 auto;
-    height: auto;
+    height: 100%;
     background-color: #EEE1DB;
     border: 5px solid #d5ac9a;
     background-color: white;

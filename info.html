@@ -6,6 +6,8 @@
 <meta name="Yorkie, Party, Information">
     <link rel="stylesheet" href="style.css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    
 <style>
         @import url('https://fonts.googleapis.com/css?family=Playfair+Display|Source+Sans+Pro&display=swap');
     
@@ -13,12 +15,66 @@
       width: 100%;
       background-image: url(images/image3.jpg);
       height: 250px;
-      background-color: purple;
       background-position: center;
     }
     p {
         padding: 0;
     }
+}
+
+@media screen  and (max-width: 979px) /* Tablet */ {
+    body (margin: 0;)
+    
+ 
+}
+
+@media screen and (max-width: 500px) /* Mobile */ {
+    body {
+        
+        margin:none;
+        padding:none;
+        width:100%;
+  }
+    .wrapper {
+        width:100%;
+        margin:none;
+        background:none;
+        border:none;
+        
+    }
+    .wrapper div{
+        width:auto;
+        margin:0px;
+    }
+    .FAQ{
+        
+        margin-right:auto;
+        
+    }
+    .accordian{
+        margin:none;
+        padding:none;
+        font-size:12px;
+        
+    }
+    .footer{
+        width:auto;
+        text-align:center;
+        align-content:center;
+    }
+    .footer ul{
+        display:none;
+    }
+    content{
+        margin:none;
+        padding:none;
+        width:100%;
+    }
+    .family{
+        width:auto;
+        background-color:none;
+    }
+}
 </style>
 </head>
 <div class="wrapper">
@@ -52,8 +108,9 @@
     </nav>
     <div id="family">
     </div>
-    <h2>FAQ</h2>
 
+    <h2>FAQ</h2>
+<div class="FAQ">
 <button class="accordion">I'm Ready To Take Home My New Family Member, Now What?</button>
 <div class="panel">
   <p>We're happy you found the perfect furry friend for your family. First we need you to <a href="contact.html">arrange a phone interview.</a> We use a phone interview to ensure our puppies go to a nice home. During the interview we will arrange any delievery/pickup details. After that,you will make a $500 desposit to reserve your puppy. </p>
@@ -102,6 +159,7 @@ for (i = 0; i < acc.length; i++) {
   });
 }
 </script>
+</div>
     
 </body>
     </div>
