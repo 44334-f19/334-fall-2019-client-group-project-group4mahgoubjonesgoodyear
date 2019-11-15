@@ -15,24 +15,58 @@
       background-color: purple;
       background-position: center;
     
-    }
-    @media (min-width: 600px) {
-        p {font-size: 1.25rem;}
-        
-    
-        
-    }
-     @media (min-width: 800px) {
-        p {font-size: 1.5rem;
-           line-height: 1.5;}
-        
-    
-        
-    }
-    
+     /* Phone */
+     @media screen and (max-width:320px) {
+         body {
+             margin: 0px 0px;
+         }
+         
+         .wrapper {
+             margin: 0;
+             width:100%;
+         }
+         
+         .footer {
+             width: 100%;
+             margin: 0px 2%;
+         }
+     }
+
+     /*Tablet*/
+     @media screen and (min-width:321px) and (max-width:768px) {
+         body {
+             margin: 0px 0px;
+         }
+         
+         .wrapper {
+             margin: 0;
+             width:100%;
+         }
+         
+         .footer {
+             width: 100%;
+             margin: 0px 2%;
+         }
+     }
+
+     /*Desktop*/
+     @media screen and (min-width:769px) {
+         body {
+             margin: 0px 10%;
+         }
+         
+         .wrapper {
+             margin: 0;
+             width: 80%;
+         }
+         
+         .footer {
+             margin: 0px 10%;
+         }
+     }
 </style>
 </head>
-<body>
+<body style="margin: 0px;">
     <div class="wrapper">
     <div class= "content">
         <img class="logo" src="images/logo.png">
@@ -82,7 +116,7 @@
 	   <br />
         </div>
     
-	<footer>
+	<footer style="width: 80%; margin: 0px 10%;">
         <div class="footer">
             <p>Contact Us today! | Copyright 2019   | (123) 456-7890 </p>
          <ul>
